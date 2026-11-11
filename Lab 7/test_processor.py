@@ -90,7 +90,7 @@ def test_valid_pace_values(minutes, pets):
 @given(
     code=st.sampled_from([
         "CALM",
-        "PLAYFUL",
+        "PLYFUL",
         "REACTIVE",
         "AGGRESSIVE"
     ])
